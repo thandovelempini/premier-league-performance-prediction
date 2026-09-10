@@ -1,6 +1,6 @@
 import pandas as pd 
 
-current_matches = pd.read_csv("data/raw/season-2627.csv")
+current_matches = pd.read_csv("data/raw/season-data/season-2627.csv")
 
 print("Dataset shape:")
 print(current_matches.shape)
@@ -17,7 +17,7 @@ current_matches.info()
 print("\nMissing values:")
 print(current_matches.isnull().sum())
 
-# Seelect columns relevant to the analysis
+# Select columns relevant to the analysis
 current_matches = current_matches[
     [
         "Date",
@@ -26,8 +26,6 @@ current_matches = current_matches[
         "FTHG",
         "FTAG",
         "FTR",
-        "HxG",
-        "AxG",
         "HS",
         "AS",
         "HST",
@@ -92,8 +90,7 @@ home_stats = pd.DataFrame({
     "Fouls": current_matches["HF"],
     "Corners": current_matches["HC"],
     "Yellow_Cards": current_matches["HY"],
-    "Red_Cards": current_matches["HR"],
-    "Expected_Goals": current_matches["HxG"]
+    "Red_Cards": current_matches["HR"]
 })
 
 # Create away team statistics 
@@ -115,14 +112,20 @@ away_stats = pd.DataFrame({
     "Fouls": current_matches["AF"],
     "Corners": current_matches["AC"],
     "Yellow_Cards": current_matches["AY"],
-    "Red_Cards": current_matches["AR"],
-    "Expected_Goals": current_matches["AxG"]
+    "Red_Cards": current_matches["AR"]
 })
 
 # Combine home away statistics
 current_team_stats = pd.concat(
     [home_stats, away_stats],
     ignore_index=True
+)
+
+# Aggregate match-level rows into one row per team
+current_team_stats = (
+    current_team_stats
+    .groupby("Team", as_index=False)
+    .sum(numeric_only=True)
 )
 
 # Calculate additional metrics
@@ -160,10 +163,11 @@ print(current_team_stats.shape)
 print("\nMissing values:")
 print(current_team_stats.isnull().sum())
 
-print("\nTeams with incorrect matches played:")
+print("\nTeams with a Matches_Played total that does not match their actual fixture count:")
 print(
     current_team_stats[
-        current_team_stats["Matches_Played"] != 1
+        current_team_stats["Team"].map(team_appearances) != 
+        current_team_stats["Matches_Played"]
     ]
 )
 
@@ -179,36 +183,14 @@ print(
 
 # HISTORICAL TEAM-SEASON METRICS
 
-historical_df = pd.read_csv("data/processed/premier_league_team_season.csv")
+# Read the pre-built historical fact table (built by
+# build_historical_fact.py) instead of rebuilding the xG merge
+# here - keeping one source of truth for this data avoids the
+# kind of silent season-mismatch bug this project hit earlier,
+# where two independent copies of this logic could drift apart.
 
-# Create per-match performance metrics
-historical_df["Shots_Per_Match"] = (
-    historical_df["Shots"] / historical_df["Matches_Played"]
-)
-
-historical_df["Shots_On_Target_Per_Match"] = (
-    historical_df["Shots_On_Target"] / historical_df["Matches_Played"]
-)
-
-historical_df["Fouls_Per_Match"] = (
-    historical_df["Fouls"] / historical_df["Matches_Played"]
-)
-
-historical_df["Yellow_Cards_Per_Match"] = (
-    historical_df["Yellow_Cards"] / historical_df["Matches_Played"]
-)
-
-historical_df["Red_Cards_Per_Match"] = (
-    historical_df["Red_Cards"] / historical_df["Matches_Played"]
-)
-
-historical_df["Shot_Conversion_Percentage"] = (
-    historical_df["Goals_Scored"] / historical_df["Shots"]
-) * 100
-
-# Target variable for new model
-historical_df["Points_Per_Match"] = (
-    historical_df["Points"] / historical_df["Matches_Played"]
+historical_df = pd.read_csv(
+    "data/processed/fact_team_season_historical.csv"
 )
 
 print("\nHistorical per-match metrics:")
@@ -223,6 +205,7 @@ print(
             "Yellow_Cards_Per_Match",
             "Red_Cards_Per_Match",
             "Shot_Conversion_Percentage",
+            "xG_Difference_Per_Match",
             "Points_Per_Match"
         ]
     ].head()
@@ -238,6 +221,7 @@ print(
             "Yellow_Cards_Per_Match",
             "Red_Cards_Per_Match",
             "Shot_Conversion_Percentage",
+            "xG_Difference_Per_Match",
             "Points_Per_Match"
         ]
     ].describe()
@@ -265,6 +249,87 @@ current_team_stats["Red_Cards_Per_Match"] = (
     current_team_stats["Red_Cards"] / current_team_stats["Matches_Played"]
 )
 
+# DERIVE CURRENT SEASON xG FROM UNDERSTAT SHOT-LEVEL DATA
+current_shots = pd.read_csv(
+    "data/processed/pl_2026_27_shots_processed.csv"
+)
+ 
+understat_team_mapping = {
+    "Manchester City": "Man City",
+    "Manchester United": "Man United",
+    "Newcastle United": "Newcastle",
+    "Nottingham Forest": "Nott'm Forest",
+    "Wolverhampton Wanderers": "Wolves"
+}
+ 
+current_shots["team"] = current_shots["team"].replace(understat_team_mapping)
+ 
+current_shots["opponent"] = current_shots.apply(
+    lambda row: (
+        row["a_team"] if row["team_side"] == "home" else row["h_team"]
+    ),
+    axis=1
+)
+ 
+current_shots["opponent"] = current_shots["opponent"].replace(
+    understat_team_mapping
+)
+ 
+xg_for = (
+    current_shots.groupby("team")["xG"].sum().rename("Total_xG_For")
+)
+ 
+xg_against = (
+    current_shots.groupby("opponent")["xG"].sum().rename("Total_xG_Against")
+)
+ 
+current_team_stats = current_team_stats.merge(
+    xg_for, left_on="Team", right_index=True, how="left"
+)
+ 
+current_team_stats = current_team_stats.merge(
+    xg_against, left_on="Team", right_index=True, how="left"
+)
+ 
+missing_shot_xg = current_team_stats[
+    current_team_stats["Total_xG_For"].isnull()
+]["Team"].tolist()
+ 
+if missing_shot_xg:
+    print(
+        "\nTeams with match results but no shot-level xG data yet "
+        "(likely a lag between results and shot-data fetch, or a "
+        "team-name mismatch - check first):"
+    )
+    print(missing_shot_xg)
+ 
+current_team_stats["xG_Per_Match"] = (
+    current_team_stats["Total_xG_For"] / current_team_stats["Matches_Played"]
+)
+ 
+current_team_stats["xGA_Per_Match"] = (
+    current_team_stats["Total_xG_Against"] / current_team_stats["Matches_Played"]
+)
+ 
+current_team_stats["xG_Difference_Per_Match"] = (
+    current_team_stats["xG_Per_Match"] - current_team_stats["xGA_Per_Match"]
+)
+
+
+# SAFETY NET: a team can have match results but no shot-level xG yet
+xg_cols_needing_fallback = [
+    "xG_Per_Match",
+    "xGA_Per_Match",
+    "xG_Difference_Per_Match"
+]
+ 
+for col in xg_cols_needing_fallback:
+    if current_team_stats[col].isnull().any():
+        league_avg_this_season = current_team_stats[col].mean()
+        current_team_stats[col] = current_team_stats[col].fillna(
+            league_avg_this_season
+        )
+
 print("\nCurrent season per-match metrics:")
 print(
     current_team_stats[
@@ -275,7 +340,8 @@ print(
             "Fouls_Per_Match",
             "Yellow_Cards_Per_Match",
             "Red_Cards_Per_Match",
-            "Shot_Conversion_Percentage"
+            "Shot_Conversion_Percentage",
+            "xG_Difference_Per_Match"
 
         ]
     ]
@@ -289,7 +355,8 @@ comparison_columns = [
     "Fouls_Per_Match",
     "Yellow_Cards_Per_Match",
     "Red_Cards_Per_Match",
-    "Shot_Conversion_Percentage"
+    "Shot_Conversion_Percentage",
+    "xG_Difference_Per_Match"
 ]
 
 print("\nHistorical ranges:")
@@ -306,7 +373,7 @@ print(
 
 # TRAIN PER-MATCH PREDICTION MODEL
 
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import KFold, cross_val_predict
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 import numpy as np
@@ -317,6 +384,7 @@ features = [
     "Fouls_Per_Match",
     "Yellow_Cards_Per_Match",
     "Red_Cards_Per_Match",
+    "xG_Difference_Per_Match"
 ]
 
 target = "Points_Per_Match"
@@ -324,27 +392,36 @@ target = "Points_Per_Match"
 X = historical_df[features]
 y = historical_df[target]
 
-# Split historical data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(
-    X,
-    y,
-    test_size=0.2,
+cv = KFold(
+    n_splits=5,
+    shuffle=True,
     random_state=42
 )
-
-# Create and train the model
+ 
+cv_predictions = cross_val_predict(
+    LinearRegression(),
+    X,
+    y,
+    cv=cv
+)
+ 
+print("\nPoints Per Match Model Performance (5-fold cross-validated):")
+print("R-Squared:", r2_score(y, cv_predictions))
+print("Mean Absolute Error:", mean_absolute_error(y, cv_predictions))
+print(
+    "Root Mean Squared Error:",
+    np.sqrt(mean_squared_error(y, cv_predictions))
+)
+ 
+# FIT THE FINAL MODEL ON ALL HISTORICAL DATA
+# Cross-validation above is for evaluating how well this feature set
+# predicts unseen data; the model actually used to predict the current
+# season should be fit on every available historical row, not held
+# back to an 80% split - there's no "test set" to protect once this
+# model moves on to predicting a season with no known answer
+ 
 ppm_model = LinearRegression()
-ppm_model.fit(X_train, y_train)
-
-# Make predictions
-y_pred = ppm_model.predict(X_test)
-
-# Evaluate model
-print("\nPoints Per Match Model Performance:")
-
-print("R-Squared:", r2_score(y_test, y_pred))
-print("Mean Absolute Error:", mean_absolute_error(y_test, y_pred))
-print("Root Mean Squared Error:", np.sqrt(mean_squared_error(y_test, y_pred)))
+ppm_model.fit(X, y)
 
 # EXAMINE MODEL COEFFICIENTS
 
@@ -364,16 +441,23 @@ print(coefficients)
 print("\nIntercept:")
 print(ppm_model.intercept_)
 
+# Store coefficients keyed by feature name so downstream impact/recommendation calculations always
+# match the model actually trained above.
+# Avoids coefficients from going stale during the weekly data refresh
+model_coeffients = dict(zip(features, ppm_model.coef_))
+
 # CREATE PREDICTIONS FOR THE CURRENT SEASON
 
 current_X = current_team_stats[features]
 
+# Clip predictions to the range that's actually possible in a real
+# match: a team can win (3), draw (1), or lose (0) 
 current_team_stats["Predicted_Points_Per_Match"] = (
     ppm_model.predict(current_X)
-)
+).clip(0, 3)
 
 current_team_stats["Predicted_Season_Points"] = (
-    current_team_stats["Predicted_Points_Per_Match"] * 36
+    current_team_stats["Predicted_Points_Per_Match"] * 38
 )
 
 # Sort teams by projected season points
@@ -579,6 +663,7 @@ features = [
     "Fouls_Per_Match",
     "Yellow_Cards_Per_Match",
     "Red_Cards_Per_Match",
+    "xG_Difference_Per_Match"
 ]
 
 league_baseline = (
@@ -643,13 +728,8 @@ print(current_with_baseline[comparison_columns])
 
 # MODEL COEFFICIENTS
 
-model_coeffients = {
-    "Shots_On_Target_Per_Match": 0.318474,
-    "Shot_Conversion_Percentage": 0.063996,
-    "Fouls_Per_Match": -0.019878,
-    "Yellow_Cards_Per_Match": -0.143816,
-    "Red_Cards_Per_Match": -0.702740
-}
+print("\nCoefficients used for impact calculations:")
+print(model_coeffients)
 
 # Calculate impact of current performance differences
 
@@ -785,6 +865,9 @@ recommendation_map = {
     "Red_Cards_Per_Match":
         "Improve discipline and reduce the risk of red cards.",
 
+    "xG_Difference_Per_Match":
+        "Improve the balance between chance creation and chance prevention - either create higher-quality chances or tighten up defensively.",
+
     "None":
         "Maintain current performance across the modelled metrics."
 }
@@ -885,6 +968,7 @@ powerbi_columns = [
     "Fouls_Per_Match_Current",
     "Yellow_Cards_Per_Match_Current",
     "Red_Cards_Per_Match_Current",
+    "xG_Difference_Per_Match_Current",
 
     # Historical metrics
     "Shots_On_Target_Per_Match_Historical",
@@ -892,6 +976,7 @@ powerbi_columns = [
     "Fouls_Per_Match_Historical",
     "Yellow_Cards_Per_Match_Historical",
     "Red_Cards_Per_Match_Historical",
+    "xG_Difference_Per_Match_Historical",
 
     # Differences
     "Shots_On_Target_Per_Match_Difference",
@@ -899,6 +984,7 @@ powerbi_columns = [
     "Fouls_Per_Match_Difference",
     "Yellow_Cards_Per_Match_Difference",
     "Red_Cards_Per_Match_Difference",
+    "xG_Difference_Per_Match_Difference",
 
     # Recommendations
     "Biggest_Positive_Factor",
@@ -916,8 +1002,6 @@ print(powerbi_df.columns)
 
 # CREATE AND EXPORT POWER BI DATASET
 
-powerbi_df = powerbi_df[powerbi_columns].copy()
-
 print("\nPower BI Dataset:")
 print(powerbi_df.head())
 
@@ -925,11 +1009,3 @@ print("\nColumns:")
 print(powerbi_df.columns)
 
 powerbi_df.to_csv("data/processed/powerbi_current_season_analysis.csv", index=False)
-
-
-
-
-
-
-
-

@@ -1,16 +1,16 @@
 import pandas as pd
 
 files = {
-    "data/raw/season-1617.csv": "2016/17",
-    "data/raw/season-1718.csv": "2017/18",
-    "data/raw/season-1819.csv": "2018/19",
-    "data/raw/season-1920.csv": "2019/20",
-    "data/raw/season-2021.csv": "2020/21",
-    "data/raw/season-2122.csv": "2021/22",
-    "data/raw/season-2223.csv": "2022/23",
-    "data/raw/season-2324.csv": "2023/24",
-    "data/raw/season-2425.csv": "2024/25",
-    "data/raw/season-2526.csv": "2025/26"
+    "data/raw/season-data/season-1617.csv": "2016/17",
+    "data/raw/season-data/season-1718.csv": "2017/18",
+    "data/raw/season-data/season-1819.csv": "2018/19",
+    "data/raw/season-data/season-1920.csv": "2019/20",
+    "data/raw/season-data/season-2021.csv": "2020/21",
+    "data/raw/season-data/season-2122.csv": "2021/22",
+    "data/raw/season-data/season-2223.csv": "2022/23",
+    "data/raw/season-data/season-2324.csv": "2023/24",
+    "data/raw/season-data/season-2425.csv": "2024/25",
+    "data/raw/season-data/season-2526.csv": "2025/26"
 }
 
 dataframes = []

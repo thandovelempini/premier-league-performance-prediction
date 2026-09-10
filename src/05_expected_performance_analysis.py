@@ -348,7 +348,7 @@ plt.ylabel("Team and Season")
 
 plt.title(
     "Largest Premier League Point Overperformers and Underperformers\n"
-    "(2016/27-2025/26)"
+    "(2016/17-2025/26)"
 )
 
 plt.axvline(0)
@@ -411,7 +411,7 @@ plt.ylabel("Team and Season")
 
 plt.title(
     "Largest Premier League Goal Overperformers and Underperformers\n"
-    "(2016/27-2025/26)"
+    "(2016/17-2025/26)"
 )
 
 plt.axvline(0)
@@ -473,7 +473,7 @@ plt.ylabel("Team and Season")
 
 plt.title(
     "Largest and Smallest Premier League Goal Conceders\n"
-    "(2016/27-2025/26)"
+    "(2016/17-2025/26)"
 )
 
 plt.axvline(0)

@@ -13,7 +13,7 @@ print("\nFirst five rows:")
 print(team_season.head())
 
 # Summary statistics
-print("\Summary statistics:")
+print("\nSummary statistics:")
 print(team_season.describe())
 
 # Distribution of Premier League points

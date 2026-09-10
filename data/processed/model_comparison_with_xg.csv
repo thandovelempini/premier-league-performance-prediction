@@ -1,0 +1,4 @@
+Model,Features,R_Squared,MAE_Per_Match,RMSE_Per_Match,MAE_Season_Points,RMSE_Season_Points
+Current model (shots/cards only),"Shots_On_Target_Per_Match, Shot_Conversion_Percentage, Fouls_Per_Match, Yellow_Cards_Per_Match, Red_Cards_Per_Match",0.7985,0.1713,0.2159,6.51,8.2
+xG-augmented (shots/cards + xG difference),"Shots_On_Target_Per_Match, Shot_Conversion_Percentage, Fouls_Per_Match, Yellow_Cards_Per_Match, Red_Cards_Per_Match, xG_Difference_Per_Match",0.8814,0.1283,0.1656,4.88,6.29
+xG-only,"xG_Per_Match, xGA_Per_Match",0.8286,0.1578,0.1991,6.0,7.57
