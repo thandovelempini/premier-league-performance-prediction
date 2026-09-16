@@ -7,8 +7,6 @@ from datetime import datetime
 BASE_DIR = Path(__file__).resolve().parent.parent
 SRC_DIR = BASE_DIR / "src"
 
-# Pipeline order, respecting actual file dependencies between scripts.
-
 STAGES = [
     ["01_load_and_combine.py", "02_create_team_season_data.py"],
 
