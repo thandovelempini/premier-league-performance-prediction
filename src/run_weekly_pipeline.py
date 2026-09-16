@@ -10,36 +10,19 @@ SRC_DIR = BASE_DIR / "src"
 # Pipeline order, respecting actual file dependencies between scripts.
 
 STAGES = [
-    # Stage 1: base historical data
     ["01_load_and_combine.py", "02_create_team_season_data.py"],
 
-    # Stage 2: historical fact table (needs stage 1's output)
     ["build_historical_fact.py"],
 
-    # Stage 3: current-season shot data fetch + processing
-    # (06 needs network access; skip with --skip-fetch if you already
-    # have a current pl_2026_27_shots.csv)
     ["06_fetch_shot_data.py", "07_shot_level_analysis.py"],
 
-    # Stage 4: model training and analysis (04 needs stage 3's shot
-    # data; 08/03/05 only need stage 1/2's output and could run
-    # independently, but are grouped here for simplicity)
     ["04_current_season_analysis.py", "08_xg_model_comparison.py",
      "03_exploratory_analysis.py", "05_expected_performance_analysis.py"],
 
-    # Stage 5: shot profile dashboard (needs stage 3's shot data)
     ["09_shot_profile_dashboard.py"],
 
-    # Stage 6: injury/availability snapshot - independent of everything
-    # else (only needs network access), but must run before stage 7
-    # since 10 now reads its output as a fact table. Appends a dated
-    # row each run rather than overwriting, building a real historical
-    # log over time.
     ["11_fetch_injury_status.py"],
 
-    # Stage 7: final Power BI schema (needs stage 2's fact table,
-    # stage 4's current-season output, and stage 5's shot profile, 
-    # and stage 6's injury snapshot)
     ["10_build_powerbi_schema.py"],
 ]
 
@@ -61,7 +44,6 @@ def run_script(script_name):
 
     elapsed = time.time() - start
 
-    # Show the script's own output so nothing is hidden
     if result.stdout:
         print(result.stdout)
     if result.stderr:

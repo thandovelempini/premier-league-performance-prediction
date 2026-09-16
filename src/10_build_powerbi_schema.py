@@ -4,18 +4,8 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
 
-# This script assembles the project's separate CSVs into a single, documented star schema for Power BI: 
-# one dim_team dimension table that every fact table joins to on "Team", and fact tables at consistent, named grains. 
-# Run after 01-09 have produced their outputs, and before opening/refreshing the Power BI file
-
-# FACT: fact_team_season_historical.csv
-
 historical_df = pd.read_csv(PROCESSED_DIR / "premier_league_team_season.csv")
 print("\nUsing existing fact_team_season_historical.csv: {historical_df.shape}")
-
-
-# FACT: fact_team_current_season.csv (Team grain, current season)
-# Renamed from powerbi_current_season_analysis.csv (produced by 04)
 
 
 current_season_src = PROCESSED_DIR / "powerbi_current_season_analysis.csv"
@@ -30,8 +20,6 @@ print(
     f"{current_season_df.shape}"
 )
 
-# FACT: fact_shot_current_season.csv (shot grain, current season)
-# Renamed from shot_map_export.csv (produced by 09)
 
 shot_export_src = PROCESSED_DIR / "shot_map_export.csv"
 fact_shot_current_season_path = (
@@ -45,9 +33,6 @@ print(
     f"{shot_export_df.shape}"
 )
 
-# FACT: fact_team_shot_profile_current_season.csv (Team grain)
-# Renamed from team_shot_profile.csv (produced by 09)
-
 shot_profile_src = PROCESSED_DIR / "team_shot_profile.csv"
 fact_team_shot_profile_path = (
     PROCESSED_DIR / "fact_team_shot_profile_current_season.csv"
@@ -60,7 +45,6 @@ print(
     f"{shot_profile_df.shape}"
 )
 
-# FACT: fact_team_injury_status.csv (Team + Snapshot_Date grain)
  
 injury_summary_src = PROCESSED_DIR / "team_injury_summary.csv"
 fact_team_injury_status_path = (
@@ -75,10 +59,6 @@ print(
     f"({injury_summary_df['Snapshot_Date'].nunique()} snapshot date(s))"
 )
  
-
-# DIMENSION: dim_team.csv
-# One row per team that appears anywhere across the fact tables, with a count of historical seasons 
-# (0 for newly promoted teams)
 
 historical_seasons = (
     historical_df
@@ -114,9 +94,6 @@ dim_team_path = PROCESSED_DIR / "dim_team.csv"
 dim_team.to_csv(dim_team_path, index=False)
 print(f"\nSaved {dim_team_path.name}: {dim_team.shape}")
 print(dim_team.to_string(index=False))
-
-# VALIDATION: check every fact table's teams exist in dim_team
-# (an orphan here means the fact table won't relate correctly in Power BI's model view)
 
 fact_tables = {
     "fact_team_season_historical": historical_df,

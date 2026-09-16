@@ -257,13 +257,6 @@ print(shots["season"].value_counts())
 
 # COMPARE SHOT DATA WITH LEAGUE DATA
 
-# NOTE: premier_league_team_season.csv only ever contains COMPLETED
-# seasons (it's built by 02 from 01's historical file list) - the
-# in-progress 2026/27 season will never appear there, so it can't be
-# the source for current-season official numbers. Build them directly
-# from the current season's raw match results instead, using the same
-# aggregation approach as 04_current_season_analysis.py.
-
 CURRENT_SEASON_MATCHES_PATH = (
     BASE_DIR / "data" / "raw" / "season-data" / "season-2627.csv"
 )

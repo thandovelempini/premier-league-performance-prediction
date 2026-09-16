@@ -7,8 +7,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 PROCESSED_DIR = BASE_DIR / "data" / "processed"
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
-# Fetches live player availability from the official Fantasy Premier
-# League API (fantasy.premierleague.com) 
 
 FPL_API_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
 
@@ -52,10 +50,6 @@ players_df["Snapshot_Date"] = SNAPSHOT_DATE
 # status codes: a = available, d = doubtful, i = injured,
 # s = suspended, u = unavailable/left club, n = not available (loan)
 players_df["Available"] = players_df["status"] == "a"
-
-# A rough "key player" proxy: has played meaningful minutes this season
-# No official "first-team" flag exists in this data, so this
-# is a judgement call, not a precise cutoff - 450 minutes is roughly 5 full matches
 
 max_minutes_so_far = players_df["minutes"].max()
 KEY_PLAYER_MINUTES_FRACTION = 0.5
