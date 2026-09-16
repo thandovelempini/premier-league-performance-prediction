@@ -1,12 +1,12 @@
 # Premier League Performance Dashboard | 2026/27 Season
 
-![Premier League Performance Dashboard](images/dashboard-overview.png)
-
 ## Project Overview
 
 This project analyses Premier League team performance during the 2026/27 season and uses historical data and machine learning to estimate team success based on key performance metrics.
 
-The project compares current team performance against historical performance baselines and estimates predicted points per match and predicted season points. Team-level performance is enriched with expected goals (xG), shot-level detail (location, body part, situation), and current squad availability. Results are presented in an 8-page Power BI dashboard, refreshed weekly.
+The project compares current team performance against historical performance baselines and estimates predicted points per match and predicted season points. Team-level performance is enriched with expected goals (xG), shot-level detail, and current squad availability.
+
+Results are presented through a four-page Power BI dashboard, with the underlying Python pipeline refreshed weekly as new match data becomes available.
 
 ## Season
 
@@ -97,24 +97,89 @@ Note: raw match-result CSVs (season-2627.csv) and the current-season xG snapshot
 | `fact_team_shot_profile_current_season`   | One row per team             | Team shot-profile aggregates: body part %, situation %, average distance/angle |
 | `fact_team_injury_status`                 | Team + weekly snapshot        | Squad availability over time - grows one row per team per week                 |
 
-## Power BI Dashboard Pages
-1. Season Overview - league table, projected final points, performance target breakdown
-2. Performance vs Historical Baseline - current vs historical shot conversion and shots on target
-3. Performance Factors - biggest positive/negative factors driving each team's prediction
-4. Recommendations - team-specific performance recommendations
-5. Executive Summary - condensed overview page
-6. Shot Map - pitch-plotted scatter of every shot this season, sized by xG, colored by body part
-7. Shot Profile - body part and situation breakdown by team
-8. Squad Availability - current injuries/suspensions, team and player level
+## Power BI Dashboard
+
+The Power BI dashboard consists of four pages designed to move from the overall prediction to the underlying performance factors, attacking data and squad availability.
+
+1. Season Overview
+![Season Overview](images/Season_Overview.png)
+
+Question: What does the model currently predict?
+The Season Overview provides the high-level view of the 2026/27 season prediction.
+
+It includes:
+- Predicted champion
+- Predicted champion points
+- Average predicted points per match
+- Teams predicted to finish in the top five
+- Predicted final points by team
+- Projected league table
+- Performance target breakdown
+
+This page provides the starting point for interpreting the model's current predictions.
 
 
-## Updates 
+2. Prediction Drivers
+![Season Overview](images/Prediction_Drivers.png)
 
-This project will be updated weekly throughout the 2026/27 Premier League season as new match results and team performance data become available. Predictions and Power BI dashboard insights will be refreshed to reflect the latest available data.
+Question: Why are teams predicted this way?
+This page examines the performance metrics contributing to the model's predictions.
 
-## Future Improvements 
+It includes:
+- Total performance impact by team
+- Current vs historical shots on target per match
+- Biggest positive performance factor
+- Biggest negative performance factor
+- Positive and negative factor impacts for each team
 
-- Automate the raw match-result and xG snapshot downloads (currently manual)
+This page helps explain the factors behind differences in predicted team performance rather than presenting predictions as standalone outputs.
+
+
+3. Attacking & Shot Analysis
+![Season Overview](images/Attacking_&_Shot_Analysis.png)
+
+Question: Where are teams shooting and how good are their chances?
+This page uses shot-level data to examine the underlying attacking profile of the league.
+
+It includes:
+- Shot map using pitch coordinates
+- Expected goals (xG) for individual shots
+- Goal vs no-goal outcomes
+- Shot distance and shot angle
+- Percentage of shots inside the box
+- Total shots
+- Total goals
+- Average xG per shot
+- Team-level shot location summary
+
+
+4. Squad Availability
+![Season Overview](images/Squad_Availability.png)
+
+Question: What current external factors could affect predictions?
+This page incorporates current player availability into the analysis.
+
+It includes:
+- Players unavailable
+- Key players unavailable
+- Missing squad value
+- Player availability status
+- Chance of playing
+- Minutes played during the season
+- Players unavailable by team
+
+## Weekly Updates
+
+This project is designed to be updated weekly throughout the 2026/27 Premier League season.
+
+Each update incorporates the latest available match results, team performance data, shot-level data and squad availability. Model predictions and Power BI dashboard insights are refreshed accordingly.
+
+The dashboard, therefore, represents a live season-long analysis, with predictions changing as the season progresses.
+
+## Future Improvements
+- Automate raw match-result and xG snapshot downloads
 - Compare additional machine learning models
-- Extend shot-level features (location, body part) into the prediction model once historical shot data becomes available
-- Build out a proper model-feature case for injury data once several seasons of availability history have accumulated
+- Extend shot-level features into the prediction model once sufficient historical shot data is available
+- Build a historical injury/availability dataset across multiple seasons
+- Incorporate squad availability into the prediction model
+- Add additional team and match-level performance features

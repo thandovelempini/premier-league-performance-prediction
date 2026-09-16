@@ -2611,3 +2611,662 @@ Snapshot_Date,Team,Player,Status,Chance_Of_Playing_Next_Round,News,Minutes_This_
 2026-09-10,Sunderland,Jules Ahoka,a,,,0,45,False
 2026-09-10,Sunderland,Malick Fofana,a,,,16,55,False
 2026-09-10,Sunderland,Juan Angulo,a,,,0,45,False
+2026-09-16,Arsenal,David Raya Martín,a,,,360,60,True
+2026-09-16,Arsenal,Kepa Arrizabalaga Revuelta,a,,,0,49,False
+2026-09-16,Arsenal,Illan Meslier,a,,,0,49,False
+2026-09-16,Arsenal,Gabriel dos Santos Magalhães,a,,,360,80,True
+2026-09-16,Arsenal,Jurriën Timber,a,100.0,,45,65,False
+2026-09-16,Arsenal,William Saliba,i,0.0,Back injury - Unknown return date,0,59,False
+2026-09-16,Arsenal,Myles Lewis-Skelly,a,,,271,55,True
+2026-09-16,Arsenal,Riccardo Calafiori,a,,,326,58,True
+2026-09-16,Arsenal,Piero Hincapié,a,,,32,53,False
+2026-09-16,Arsenal,Benjamin White,d,75.0,Muscular injury - 75% chance of playing,315,55,True
+2026-09-16,Arsenal,Cristhian Mosquera,d,50.0,Muscular injury - 50% chance of playing,168,53,False
+2026-09-16,Arsenal,Bukayo Saka,a,,,336,95,True
+2026-09-16,Arsenal,Declan Rice,a,,,321,74,True
+2026-09-16,Arsenal,Eberechi Eze,a,,,68,63,False
+2026-09-16,Arsenal,Martin Ødegaard,a,,,305,67,True
+2026-09-16,Arsenal,Noni Madueke,a,,,23,62,False
+2026-09-16,Arsenal,Mikel Merino Zazón,a,,,51,58,False
+2026-09-16,Arsenal,Gabriel Martinelli Silva,u,0.0,Has joined Al Hilal permanently,0,63,False
+2026-09-16,Arsenal,Martín Zubimendi Ibáñez,a,,,59,53,False
+2026-09-16,Arsenal,Max Dowman,a,,,0,53,False
+2026-09-16,Arsenal,Ethan Nwaneri,u,0.0,Has joined Borussia Dortmund on loan for the rest of the season,0,54,False
+2026-09-16,Arsenal,Fábio Ferreira Vieira,u,0.0,Has joined Hamburger SV permanently,0,55,False
+2026-09-16,Arsenal,Reiss Nelson,u,0.0,has departed the club as a free agent.,0,55,False
+2026-09-16,Arsenal,Viktor Gyökeres,a,,,12,72,False
+2026-09-16,Arsenal,Kai Havertz,a,,,347,76,True
+2026-09-16,Arsenal,Gabriel Fernando de Jesus,u,0.0,Has joined FC Barcelona permanently,0,59,False
+2026-09-16,Arsenal,Ezri Konsa Ngoyo,a,,,191,45,True
+2026-09-16,Arsenal,Bruno Guimarães Rodriguez Moura,a,100.0,,64,67,False
+2026-09-16,Arsenal,Christos Tzolis,a,,,290,64,True
+2026-09-16,Aston Villa,Marco Bizot,a,,,90,45,False
+2026-09-16,Aston Villa,Lucas Digne,u,0.0,Has joined Paris Saint-Germain permanently,0,45,False
+2026-09-16,Aston Villa,Matty Cash,d,75.0,Muscular injury - 75% chance of playing,251,44,True
+2026-09-16,Aston Villa,Tyrone Mings,a,,,171,45,False
+2026-09-16,Aston Villa,Pau Torres,d,75.0,Hamstring injury - 75% chance of playing,187,45,True
+2026-09-16,Aston Villa,Lamare Bogarde,a,,,16,50,False
+2026-09-16,Aston Villa,Ian Maatsen,d,25.0,Ankle injury - 25% chance of playing,335,45,True
+2026-09-16,Aston Villa,Victor Lindelöf,a,,,360,45,True
+2026-09-16,Aston Villa,Andrés García,a,,,0,40,False
+2026-09-16,Aston Villa,Kosta Nedeljkovic,u,0.0,Has joined Rangers on loan for the rest of the season,0,40,False
+2026-09-16,Aston Villa,Emiliano Buendía Stati,a,,,311,59,True
+2026-09-16,Aston Villa,Leon Bailey,u,0.0,Has joined Olympiakos permanently,0,54,False
+2026-09-16,Aston Villa,John McGinn,a,,,351,54,True
+2026-09-16,Aston Villa,Ross Barkley,a,,,302,50,True
+2026-09-16,Aston Villa,Boubacar Kamara,a,100.0,,360,50,True
+2026-09-16,Aston Villa,Amadou Onana,i,0.0,Knee injury - Unknown return date,0,49,False
+2026-09-16,Aston Villa,Samuel Iling-Junior,u,0.0,Has joined Bolton Wanderers on loan for the rest of the season,0,50,False
+2026-09-16,Aston Villa,Bradley Burrowes,a,,,0,45,False
+2026-09-16,Aston Villa,George Hemmings,a,,,279,45,True
+2026-09-16,Aston Villa,Alysson Edward Franco da Rocha dos Santos,a,,,87,50,False
+2026-09-16,Aston Villa,Johan Manzambi,a,100.0,,27,59,False
+2026-09-16,Aston Villa,Joao Gomes,a,100.0,,39,55,False
+2026-09-16,Aston Villa,Ollie Watkins,u,0.0,Has joined Al Hilal permanently,0,78,False
+2026-09-16,Aston Villa,Tammy Abraham,a,100.0,,69,55,False
+2026-09-16,Aston Villa,Alejandro Garnacho Ferreyra,a,,,31,58,False
+2026-09-16,Aston Villa,Nicolas Jackson,a,,,199,65,True
+2026-09-16,Aston Villa,Brian Madjo,i,0.0,Unspecified injury - Unknown return date,0,54,False
+2026-09-16,Aston Villa,Matteo Ruggeri,a,,,23,45,False
+2026-09-16,Aston Villa,Zion Suzuki,a,,,270,50,True
+2026-09-16,Aston Villa,Triston Rowe,a,,,0,40,False
+2026-09-16,Aston Villa,Luka Lynch,u,0.0,Has joined Oxford United on loan until January,0,45,False
+2026-09-16,Aston Villa,Aaron Wan-Bissaka,a,,,107,45,False
+2026-09-16,Aston Villa,Leon Goretzka,i,0.0,Knee injury - Expected back 10 Oct,0,59,False
+2026-09-16,Aston Villa,Taylor Harwood-Bellis,a,,,0,45,False
+2026-09-16,Aston Villa,Ibrahim Mbaye,a,,,27,60,False
+2026-09-16,Bournemouth,Đorđe Petrović,a,,,360,45,True
+2026-09-16,Bournemouth,Fraser Forster,a,,,0,40,False
+2026-09-16,Bournemouth,Will Dennis,u,0.0,Has joined MK Dons permanently,0,40,False
+2026-09-16,Bournemouth,James Hill,a,,,360,55,True
+2026-09-16,Bournemouth,Adrien Truffert,a,,,360,55,True
+2026-09-16,Bournemouth,Bafodé Diakité,a,,,0,50,False
+2026-09-16,Bournemouth,Veljko Milosavljevic,i,0.0,Thigh injury - Unknown return date,0,49,False
+2026-09-16,Bournemouth,Adam Smith,a,,,360,45,True
+2026-09-16,Bournemouth,Julián Araujo Zúñiga,i,0.0,Thigh injury - Unknown return date,0,44,False
+2026-09-16,Bournemouth,Julio Soler Barreto,a,100.0,,0,40,False
+2026-09-16,Bournemouth,Rayan Vitor Simplício Rocha,a,,,347,64,True
+2026-09-16,Bournemouth,Marcus Tavernier,a,,,350,61,True
+2026-09-16,Bournemouth,Alex Scott,a,,,356,61,True
+2026-09-16,Bournemouth,Justin Kluivert,a,,,294,60,True
+2026-09-16,Bournemouth,Lewis Cook,a,,,165,50,False
+2026-09-16,Bournemouth,Ben Gannon-Doak,a,,,10,49,False
+2026-09-16,Bournemouth,Tyler Adams,a,100.0,,192,50,True
+2026-09-16,Bournemouth,David Brooks,a,100.0,,30,50,False
+2026-09-16,Bournemouth,Ryan Christie,a,100.0,,28,50,False
+2026-09-16,Bournemouth,Alex Tóth,a,,,15,50,False
+2026-09-16,Bournemouth,Amine Adli,i,0.0,Calf injury - Unknown return date,0,49,False
+2026-09-16,Bournemouth,Junior Kroupi,i,0.0,Foot injury - Expected back 7 Nov,0,74,False
+2026-09-16,Bournemouth,Francisco Evanilson de Lima Barbosa,a,,,334,60,True
+2026-09-16,Bournemouth,Enes Ünal,u,0.0,Has joined Getafe permanently,0,55,False
+2026-09-16,Bournemouth,Álvaro Rodríguez,a,100.0,,10,60,False
+2026-09-16,Bournemouth,António João Pereira de Albuquerque Tavares da Silva,a,,,360,50,True
+2026-09-16,Bournemouth,Juanlu Sánchez,a,,,0,44,False
+2026-09-16,Bournemouth,Daniel Jebbison,a,,,16,50,False
+2026-09-16,Bournemouth,Michele Di Gregorio,a,,,0,45,False
+2026-09-16,Brentford,Caoimhín Kelleher,a,,,360,50,True
+2026-09-16,Brentford,Hákon Rafn Valdimarsson,a,,,0,45,False
+2026-09-16,Brentford,Nathan Collins,i,0.0,Calf injury - Unknown return date,196,54,True
+2026-09-16,Brentford,Sepp van den Berg,i,0.0,Groin injury - Unknown return date,0,49,False
+2026-09-16,Brentford,Keane Lewis-Potter,a,,,326,55,True
+2026-09-16,Brentford,Kristoffer Ajer,a,,,360,45,True
+2026-09-16,Brentford,Michael Kayode,a,,,226,46,True
+2026-09-16,Brentford,Rico Henry,a,,,2,44,False
+2026-09-16,Brentford,Aaron Hickey,a,,,131,45,False
+2026-09-16,Brentford,Kim Ji-soo,a,,,0,45,False
+2026-09-16,Brentford,Jannik Schuster,a,,,163,45,False
+2026-09-16,Brentford,Kevin Schade,a,,,357,61,True
+2026-09-16,Brentford,Dango Ouattara,a,,,170,63,False
+2026-09-16,Brentford,Mikkel Damsgaard,a,,,197,55,True
+2026-09-16,Brentford,Mathias Jensen,i,0.0,Unspecified injury - Expected back 18 Sep,66,54,False
+2026-09-16,Brentford,Vitaly Janelt,a,,,360,50,True
+2026-09-16,Brentford,Antoni Milambo,i,0.0,Knee injury - Unknown return date,0,50,False
+2026-09-16,Brentford,Fábio Freitas Gouveia Carvalho,a,100.0,,0,50,False
+2026-09-16,Brentford,Yehor Yarmoliuk,a,,,148,48,False
+2026-09-16,Brentford,Josh Dasilva,i,0.0,Hamstring injury - Expected back 10 Oct,0,49,False
+2026-09-16,Brentford,Jaidon Anthony,a,,,187,59,True
+2026-09-16,Brentford,Igor Thiago Nascimento Rodrigues,a,,,352,79,True
+2026-09-16,Brentford,Kaye Furo,i,0.0,Unspecified injury - Unknown return date,0,45,False
+2026-09-16,Brentford,Callum Wilson,a,,,13,55,False
+2026-09-16,Brentford,Mamadou Sangaré,a,,,300,57,True
+2026-09-16,Brentford,El Hadji Malick Diouf,a,,,30,45,False
+2026-09-16,Brentford,Gustavo Nunes Fernandes Gomes,a,,,0,45,False
+2026-09-16,Brighton,Bart Verbruggen,a,,,360,45,True
+2026-09-16,Brighton,Jason Steele,a,,,0,40,False
+2026-09-16,Brighton,Ferdi Kadıoğlu,a,100.0,,257,44,True
+2026-09-16,Brighton,Olivier Boscagli,a,,,347,45,True
+2026-09-16,Brighton,Maxim De Cuyper,a,,,333,48,True
+2026-09-16,Brighton,Lewis Dunk,a,,,360,45,True
+2026-09-16,Brighton,Diego Coppola,a,,,0,45,False
+2026-09-16,Brighton,Igor Julio dos Santos de Paulo,u,0.0,Has joined Burnley permanently,0,45,False
+2026-09-16,Brighton,João Pedro Loureiro da Costa,a,,,54,45,False
+2026-09-16,Brighton,Michael Svoboda,a,,,0,50,False
+2026-09-16,Brighton,Mitoma Kaoru,i,0.0,Hamstring injury - Expected back 10 Oct,0,59,False
+2026-09-16,Brighton,Yankuba Minteh,i,0.0,Leg injury - Expected back 28 Nov,0,59,False
+2026-09-16,Brighton,Jack Hinshelwood,i,0.0,Ankle injury - Expected back 10 Oct,63,59,False
+2026-09-16,Brighton,Pascal Groß,a,,,360,57,True
+2026-09-16,Brighton,Georginio Rutter,a,100.0,,90,54,False
+2026-09-16,Brighton,Matt O'Riley,a,,,6,54,False
+2026-09-16,Brighton,Diego Gómez Amarilla,a,,,348,50,True
+2026-09-16,Brighton,Facundo Buonanotte,u,0.0,Has joined Elche on loan for the rest of the season,0,50,False
+2026-09-16,Brighton,Yasin Ayari,a,100.0,,243,54,True
+2026-09-16,Brighton,Mats Wieffer,i,0.0,Knee injury - Unknown return date,156,49,False
+2026-09-16,Brighton,Harry Howell,u,0.0,Has joined Leicester City on loan for the rest of the season,0,45,False
+2026-09-16,Brighton,Tom Watson,u,0.0,Has joined Leicester City on loan for the rest of the season,0,50,False
+2026-09-16,Brighton,Nehemiah Oriola,a,,,0,45,False
+2026-09-16,Brighton,Zadok Yohanna,i,0.0,Unspecified injury - Expected back 10 Oct,12,49,False
+2026-09-16,Brighton,Stefanos Tzimas,i,0.0,Knee injury - Unknown return date,0,54,False
+2026-09-16,Brighton,Charalampos Kostoulas,a,,,278,55,True
+2026-09-16,Brighton,Evan Ferguson,i,0.0,Ankle injury - Expected back 10 Oct,0,50,False
+2026-09-16,Brighton,Pascal Struijk,a,100.0,,13,49,False
+2026-09-16,Brighton,Luka Vušković,a,,,347,50,True
+2026-09-16,Brighton,Promise David,a,,,23,60,False
+2026-09-16,Brighton,Ibrahim Osman,a,,,40,50,False
+2026-09-16,Brighton,Malick Yalcouyé,a,,,231,45,True
+2026-09-16,Brighton,Jaouen Hadjam,a,,,0,45,False
+2026-09-16,Brighton,Amario Cozier-Duberry,u,0.0,Has joined Middlesbrough on loan for the rest of the season,0,50,False
+2026-09-16,Brighton,José María Andrés Baixauli,a,,,25,55,False
+2026-09-16,Brighton,Femi Azeez,d,75.0,Hamstring injury - 75% chance of playing,0,55,False
+2026-09-16,Brighton,Younes Ibrahim,a,,,0,45,False
+2026-09-16,Chelsea,Emiliano Martínez Romero,a,,,270,50,True
+2026-09-16,Chelsea,Morgan Rogers,a,,,347,77,True
+2026-09-16,Chelsea,Jordan Henderson,i,0.0,Wrist injury - Unknown return date,0,49,False
+2026-09-16,Chelsea,Danny Welbeck,a,100.0,,15,59,False
+2026-09-16,Chelsea,Robert Lynch Sánchez,u,0.0,Has joined Como on loan for the rest of the season,90,49,False
+2026-09-16,Chelsea,Filip Jörgensen,u,0.0,Has joined RC Strasbourg on loan for the rest of the season,0,50,False
+2026-09-16,Chelsea,Reece James,a,,,292,54,True
+2026-09-16,Chelsea,Trevoh Chalobah,u,0.0,Has joined Como permanently,0,55,False
+2026-09-16,Chelsea,Malo Gusto,a,,,272,50,True
+2026-09-16,Chelsea,Wesley Fofana,a,100.0,,242,50,True
+2026-09-16,Chelsea,Benoît Badiashile Mukinayi,u,0.0,Has joined Napoli on loan for the rest of the season,0,45,False
+2026-09-16,Chelsea,Jorrel Hato,a,,,258,45,True
+2026-09-16,Chelsea,Levi Samuels Colwill,a,,,251,49,True
+2026-09-16,Chelsea,Mamadou Sarr,u,0.0,Has joined Real Sociedad on loan for the rest of the season,0,45,False
+2026-09-16,Chelsea,Josh Acheampong,a,,,202,45,True
+2026-09-16,Chelsea,Marco Palestra,i,0.0,Thigh injury - Expected back 18 Sep,0,53,False
+2026-09-16,Chelsea,Cole Palmer,a,100.0,,352,97,True
+2026-09-16,Chelsea,Pedro Lomba Neto,a,,,246,65,True
+2026-09-16,Chelsea,Estêvão Almeida de Oliveira Gonçalves,a,,,20,63,False
+2026-09-16,Chelsea,Jamie Bynoe-Gittens,a,,,0,59,False
+2026-09-16,Chelsea,Moisés Caicedo Corozo,i,0.0,Calf injury - Expected back 18 Sep,13,53,False
+2026-09-16,Chelsea,Roméo Lavia,a,,,258,50,True
+2026-09-16,Chelsea,Dário Luís Essugo,u,0.0,Has joined RC Strasbourg on loan for the rest of the season,0,45,False
+2026-09-16,Chelsea,Geovany Quenda,a,100.0,,8,53,False
+2026-09-16,Chelsea,João Pedro Junqueira de Jesus,a,,,360,78,True
+2026-09-16,Chelsea,Marc Guiu Paz,u,0.0,Has joined RB Leipzig permanently,0,50,False
+2026-09-16,Chelsea,Shumaira Mheuka,a,,,0,45,False
+2026-09-16,Chelsea,Emmanuel Emegha,i,0.0,Hamstring injury - Expected back 18 Sep,0,50,False
+2026-09-16,Chelsea,Maxence Lacroix,a,,,274,60,True
+2026-09-16,Chelsea,Mike Penders,a,,,0,44,False
+2026-09-16,Chelsea,Aaron Anselmino,a,100.0,,0,45,False
+2026-09-16,Chelsea,Valentín Barco,a,,,29,54,False
+2026-09-16,Chelsea,Pep Chavarría,a,,,118,49,False
+2026-09-16,Coventry,Ethan Pinnock,a,,,192,45,True
+2026-09-16,Coventry,Frank Onyeka,d,50.0,Hand injury - 50% chance of playing,224,49,True
+2026-09-16,Coventry,Carl Rushworth,a,,,360,45,True
+2026-09-16,Coventry,Oliver Dovin,u,0.0,Has joined Leyton Orient on loan for the rest of the season,0,40,False
+2026-09-16,Coventry,Ben Wilson,a,,,0,44,False
+2026-09-16,Coventry,Bobby Thomas,a,,,347,40,True
+2026-09-16,Coventry,Liam Kitching,u,0.0,Has joined Sheffield United on loan for the rest of the season,0,40,False
+2026-09-16,Coventry,Milan van Ewijk,a,,,360,40,True
+2026-09-16,Coventry,Jay Dasilva,a,,,354,40,True
+2026-09-16,Coventry,Kaine Kesler-Hayden,i,0.0,Hamstring injury - Unknown return date,0,40,False
+2026-09-16,Coventry,Jake Bidwell,a,,,0,40,False
+2026-09-16,Coventry,Joel Latibeaudiere,a,,,0,40,False
+2026-09-16,Coventry,Luke Woolfenden,i,0.0,Knee injury - Unknown return date,0,40,False
+2026-09-16,Coventry,Miguel Brau,u,0.0,Has joined Academico de Viseu on loan for the rest of the season,0,40,False
+2026-09-16,Coventry,Aurèle Amenda,a,,,360,40,True
+2026-09-16,Coventry,Jack Rudoni,a,100.0,,224,50,True
+2026-09-16,Coventry,Matt Grimes,a,,,353,49,True
+2026-09-16,Coventry,Tatsuhiro Sakamoto,a,,,31,49,False
+2026-09-16,Coventry,Ephron Mason-Clark,a,100.0,,186,54,True
+2026-09-16,Coventry,Josh Eccles,i,0.0,Unspecified injury - Expected back 12 Oct,0,49,False
+2026-09-16,Coventry,Victor Torp,a,,,53,54,False
+2026-09-16,Coventry,George Shepherd,a,,,0,45,False
+2026-09-16,Coventry,Loum Tchaouna,a,,,166,54,False
+2026-09-16,Coventry,Raphael Borges Rodrigues,u,0.0,Has joined Burton Albion on loan for the rest of the season,0,45,False
+2026-09-16,Coventry,Kai Andrews,u,0.0,Has joined Oxford United on loan for the rest of the season,0,45,False
+2026-09-16,Coventry,Haji Wright,i,0.0,Thigh injury - Unknown return date,0,54,False
+2026-09-16,Coventry,Brandon Thomas-Asante,a,,,137,50,False
+2026-09-16,Coventry,Ellis Simms,a,,,88,50,False
+2026-09-16,Coventry,Jahnoah Markelo,u,0.0,Has joined Shabab Al-Ahli Dubai permanently,0,50,False
+2026-09-16,Coventry,Norman Bassette,u,0.0,Has joined KVC Westerlo on loan for the rest of the season,0,45,False
+2026-09-16,Coventry,Taiwo Awoniyi,s,0.0,Suspended until 19 Oct,232,55,True
+2026-09-16,Coventry,Caleb Yirenkyi,a,,,175,49,False
+2026-09-16,Coventry,Gustavo Hamer,a,,,32,54,False
+2026-09-16,Coventry,Sidiki Cherif,a,,,30,50,False
+2026-09-16,Coventry,Dan Bentley,a,,,0,40,False
+2026-09-16,Coventry,Yann Gboho,a,,,0,55,False
+2026-09-16,Coventry,Stephen Mfuni,a,,,0,40,False
+2026-09-16,Crystal Palace,Evann Guessand,a,,,54,55,False
+2026-09-16,Crystal Palace,Axel Disasi,s,0.0,Suspended until 25 Oct,139,45,False
+2026-09-16,Crystal Palace,Dean Henderson,i,0.0,Foot injury - Expected back 11 Oct,270,50,True
+2026-09-16,Crystal Palace,Walter Benítez,a,,,90,45,False
+2026-09-16,Crystal Palace,Chris Richards,a,,,360,50,True
+2026-09-16,Crystal Palace,Jaydee Canvot,a,,,270,49,True
+2026-09-16,Crystal Palace,Tyrick Mitchell,a,,,329,45,True
+2026-09-16,Crystal Palace,Borna Sosa,u,0.0,Has joined FC Cologne on loan for the rest of the season,0,45,False
+2026-09-16,Crystal Palace,Chadi Riad Dnanou,i,0.0,Knee injury - Unknown return date,72,44,False
+2026-09-16,Crystal Palace,Oscar Mingueza,a,,,16,44,False
+2026-09-16,Crystal Palace,Ismaïla Sarr,i,0.0,Groin injury - Unknown return date,0,62,False
+2026-09-16,Crystal Palace,Adam Wharton,a,100.0,,346,55,True
+2026-09-16,Crystal Palace,Yéremy Pino Santos,a,,,226,55,True
+2026-09-16,Crystal Palace,Will Hughes,a,,,29,44,False
+2026-09-16,Crystal Palace,Jefferson Lerma Solís,a,,,6,49,False
+2026-09-16,Crystal Palace,Daichi Kamada,a,,,351,50,True
+2026-09-16,Crystal Palace,Justin Devenny,u,0.0,Has joined Stoke City permanently,0,50,False
+2026-09-16,Crystal Palace,Romain Esse,u,0.0,Has joined Millwall on loan for the rest of the season,0,50,False
+2026-09-16,Crystal Palace,Matheus França de Oliveira,u,0.0,Has joined Alverca on loan for the rest of the season,0,49,False
+2026-09-16,Crystal Palace,Cheick Doucouré,a,,,0,49,False
+2026-09-16,Crystal Palace,Jesurun Rak-Sakyi,u,0.0,has joined  Kasimpasa on loan for the rest of the seaon.,0,49,False
+2026-09-16,Crystal Palace,Rio Cardines,u,0.0,Has joined Bristol City on loan for the rest of the season,0,45,False
+2026-09-16,Crystal Palace,Joél Drakes-Thomas,a,,,0,45,False
+2026-09-16,Crystal Palace,Jørgen Strand Larsen,a,,,217,60,True
+2026-09-16,Crystal Palace,Jean-Philippe Mateta,i,0.0,Hamstring injury - Expected back 11 Oct,62,63,False
+2026-09-16,Crystal Palace,Eddie Nketiah,d,75.0,Unspecified injury - 75% chance of playing,167,55,False
+2026-09-16,Crystal Palace,Christantus Uche,u,0.0,has returned to Getafe CF,0,50,False
+2026-09-16,Crystal Palace,Dwight McNeil,a,,,84,54,False
+2026-09-16,Crystal Palace,Remi Matthews,a,,,0,40,False
+2026-09-16,Crystal Palace,Takehiro Tomiyasu,a,,,144,44,False
+2026-09-16,Crystal Palace,Anan Khalaili,a,,,289,50,True
+2026-09-16,Crystal Palace,Zavier Gozo,a,,,28,50,False
+2026-09-16,Crystal Palace,Honest Ahanor,a,,,90,45,False
+2026-09-16,Crystal Palace,Ben Chilwell,a,,,29,45,False
+2026-09-16,Crystal Palace,Quinten Timber,a,,,163,50,False
+2026-09-16,Crystal Palace,Darío Osorio,a,,,1,55,False
+2026-09-16,Everton,Christian Nørgaard,i,0.0,Groin injury - Unknown return date,0,49,False
+2026-09-16,Everton,Brennan Johnson,a,,,173,59,False
+2026-09-16,Everton,Jordan Pickford,a,,,360,55,True
+2026-09-16,Everton,Mark Travers,a,,,0,50,False
+2026-09-16,Everton,Tom King,a,,,0,45,False
+2026-09-16,Everton,James Tarkowski,a,,,360,61,True
+2026-09-16,Everton,Jarrad Branthwaite,a,,,360,55,True
+2026-09-16,Everton,Michael Keane,a,,,0,48,False
+2026-09-16,Everton,Jake O'Brien,a,,,15,49,False
+2026-09-16,Everton,Vitalii Mykolenko,a,,,360,45,True
+2026-09-16,Everton,Nathan Patterson,u,0.0,Has joined Torino permanently,0,45,False
+2026-09-16,Everton,Adam Aznou,u,0.0,Has joined Malaga on loan for the rest of the season,0,40,False
+2026-09-16,Everton,Kiernan Dewsbury-Hall,a,,,360,65,True
+2026-09-16,Everton,Jack Grealish,a,100.0,,57,65,False
+2026-09-16,Everton,James Garner,a,100.0,,238,60,True
+2026-09-16,Everton,Tyrique George,a,,,298,55,True
+2026-09-16,Everton,Carlos Alcaraz Durán,a,,,5,49,False
+2026-09-16,Everton,Harrison Armstrong,a,,,356,50,True
+2026-09-16,Everton,Tyler Dibling,a,,,0,54,False
+2026-09-16,Everton,Merlin Röhl,a,,,249,49,True
+2026-09-16,Everton,Hayden Hackney,a,100.0,,136,55,False
+2026-09-16,Everton,Norberto Bercique Gomes Betuncal,u,0.0,Has joined Fiorentina permanently,31,54,False
+2026-09-16,Everton,Thierno Barry,a,,,327,56,True
+2026-09-16,Everton,Ainsley Maitland-Niles,a,,,87,45,False
+2026-09-16,Everton,Braiden Graham,a,,,0,45,False
+2026-09-16,Fulham,Bernd Leno,a,,,360,45,True
+2026-09-16,Fulham,Benjamin Lecomte,a,,,0,40,False
+2026-09-16,Fulham,Alfie McNally,u,0.0,Has joined York City on loan for the rest of the season,0,40,False
+2026-09-16,Fulham,Joachim Andersen,a,100.0,,180,50,True
+2026-09-16,Fulham,Antonee Robinson,a,,,339,45,True
+2026-09-16,Fulham,Jorge Cuenca Barreno,a,,,90,45,False
+2026-09-16,Fulham,Kenny Tete,a,,,27,44,False
+2026-09-16,Fulham,Calvin Bassey,a,,,360,45,True
+2026-09-16,Fulham,Timothy Castagne,a,,,318,45,True
+2026-09-16,Fulham,Alex Iwobi,a,,,338,54,True
+2026-09-16,Fulham,Emile Smith Rowe,a,,,38,54,False
+2026-09-16,Fulham,Kevin Santos Lopes de Macedo,a,,,42,53,False
+2026-09-16,Fulham,Oscar Bobb,a,,,273,55,True
+2026-09-16,Fulham,Sander Berge,a,,,273,49,True
+2026-09-16,Fulham,Tom Cairney,i,0.0,Knee injury - Expected back 10 Oct,0,49,False
+2026-09-16,Fulham,Josh King,a,,,346,55,True
+2026-09-16,Fulham,Ryan Sessegnon,d,75.0,Groin injury - 75% chance of playing,50,44,False
+2026-09-16,Fulham,Harrison Reed,a,,,0,44,False
+2026-09-16,Fulham,Rodrigo Muniz Carvalho,a,,,28,54,False
+2026-09-16,Fulham,Jonah Kusi-Asare,a,,,0,45,False
+2026-09-16,Fulham,Gonzalo García,a,,,346,60,True
+2026-09-16,Fulham,César Palacios,a,,,207,54,True
+2026-09-16,Fulham,Shea Charles,a,,,213,50,True
+2026-09-16,Fulham,Luc De Fougerolles,u,0.0,has joined  Real Salt Lake on loan for the rest of the seaon.,0,40,False
+2026-09-16,Fulham,Macaulay Zepa,a,,,0,45,False
+2026-09-16,Fulham,Hugo Larsson,a,,,24,50,False
+2026-09-16,Fulham,Manuel Ángel Morán Ibáñez,a,,,0,50,False
+2026-09-16,Fulham,David Affengruber,a,,,90,45,False
+2026-09-16,Hull,Tim Iroegbunam,a,100.0,,25,50,False
+2026-09-16,Hull,Dillon Phillips,a,,,0,40,False
+2026-09-16,Hull,Jack Butland,i,0.0,Arm injury - Unknown return date,0,45,False
+2026-09-16,Hull,Harvey Cartwright,u,0.0,Has joined Grimsby Town on loan for the rest of the season,0,40,False
+2026-09-16,Hull,Thimothée Lo-Tutala,u,0.0,Has joined Colchester United on loan for the rest of the season,0,40,False
+2026-09-16,Hull,John Egan,a,,,360,41,True
+2026-09-16,Hull,Charlie Hughes,i,0.0,Groin injury - Unknown return date,0,39,False
+2026-09-16,Hull,Semi Ajayi,a,100.0,,333,42,True
+2026-09-16,Hull,Lewie Coyle,a,100.0,,258,40,True
+2026-09-16,Hull,Cody Drameh,u,0.0,Has joined Genoa permanently,65,40,False
+2026-09-16,Hull,Ryan Giles,a,,,354,40,True
+2026-09-16,Hull,Matty Jacob,u,0.0,Has joined Newport County on loan until January,0,40,False
+2026-09-16,Hull,Cathal McCarthy,a,,,0,40,False
+2026-09-16,Hull,Paddy McNair,a,100.0,,26,40,False
+2026-09-16,Hull,Mohamed Belloumi,a,,,312,51,True
+2026-09-16,Hull,Liam Millar,u,0.0,Has joined Birmingham on loan for the rest of the season,50,50,False
+2026-09-16,Hull,Kieran Dowell,a,,,0,45,False
+2026-09-16,Hull,Matt Crooks,a,100.0,,158,45,False
+2026-09-16,Hull,Regan Slater,a,,,360,45,True
+2026-09-16,Hull,Eliot Matazo,i,0.0,Knee injury - Unknown return date,0,45,False
+2026-09-16,Hull,Abdülkadir Ömür,a,,,0,49,False
+2026-09-16,Hull,Abu Kamara,u,0.0,Has joined Portsmouth permanently,0,50,False
+2026-09-16,Hull,Óscar Zambrano,a,100.0,,0,45,False
+2026-09-16,Hull,Oli McBurnie,a,,,351,55,True
+2026-09-16,Hull,David Akintola,u,0.0,Has joined Omonoia FC permanently,0,50,False
+2026-09-16,Hull,Darko Gyabi,i,0.0,Thigh injury - Unknown return date,0,45,False
+2026-09-16,Hull,Enis Destan,u,0.0,Has joined Konyaspor permanently,0,45,False
+2026-09-16,Hull,Mason Burstow,u,0.0,Has joined Sheffield Wednesday on loan for the rest of the season,0,45,False
+2026-09-16,Hull,Joe Gelhardt,a,100.0,,0,50,False
+2026-09-16,Hull,Matt Targett,a,,,5,40,False
+2026-09-16,Hull,Hidemasa Morita,i,0.0,Calf injury - Expected back 11 Oct,45,50,False
+2026-09-16,Hull,Konstantinos Tzolakis,a,,,360,46,True
+2026-09-16,Hull,Jens Hjertø-Dahl,a,,,8,49,False
+2026-09-16,Hull,Elliot Stroud,a,,,249,50,True
+2026-09-16,Hull,Lucas Herrington,a,,,107,40,False
+2026-09-16,Hull,Nobel Mendy,d,50.0,Concussion - 50% chance of playing,249,41,True
+2026-09-16,Hull,Lucas Gourna-Douath,a,,,126,50,False
+2026-09-16,Hull,Mohamed-Ali Cho,a,,,45,50,False
+2026-09-16,Hull,Ilyas Ansah,i,0.0,Back injury - Unknown return date,0,50,False
+2026-09-16,Hull,Robinio Vaz,a,,,8,50,False
+2026-09-16,Hull,Brooke Norton-Cuffy,a,,,34,40,False
+2026-09-16,Hull,Sorba Thomas,a,,,57,55,False
+2026-09-16,Hull,Christos Mouzakitis,a,,,0,50,False
+2026-09-16,Ipswich,Issa Diop,a,,,360,40,True
+2026-09-16,Ipswich,Saša Lukić,a,,,328,50,True
+2026-09-16,Ipswich,Christian Walton,a,,,0,44,False
+2026-09-16,Ipswich,Alex Palmer,a,,,0,40,False
+2026-09-16,Ipswich,David Button,a,,,0,40,False
+2026-09-16,Ipswich,Cédric Kipré,a,,,0,39,False
+2026-09-16,Ipswich,Dara O'Shea,a,,,360,40,True
+2026-09-16,Ipswich,Leif Davis,a,,,360,40,True
+2026-09-16,Ipswich,Jacob Greaves,a,,,357,40,True
+2026-09-16,Ipswich,Ben Johnson,u,0.0,Has joined Stoke City on loan for the rest of the season,0,40,False
+2026-09-16,Ipswich,Darnell Furlong,a,,,17,40,False
+2026-09-16,Ipswich,Marcelino Núñez,a,,,140,49,False
+2026-09-16,Ipswich,Azor Matusiwa,a,100.0,,0,49,False
+2026-09-16,Ipswich,Wes Burns,u,0.0,Has joined Leicester City permanently,0,50,False
+2026-09-16,Ipswich,Jack Taylor,i,0.0,Knee injury - Unknown return date,0,45,False
+2026-09-16,Ipswich,Jack Clarke,a,,,105,54,False
+2026-09-16,Ipswich,Chiedozie Ogbene,u,0.0,Has joined Lincoln City on loan until January,0,49,False
+2026-09-16,Ipswich,Abdul Fatawu,a,,,286,55,True
+2026-09-16,Ipswich,Emersonn Correia da Silva,a,100.0,,237,55,True
+2026-09-16,Ipswich,George Hirst,u,0.0,Has joined Stoke City permanently,0,50,False
+2026-09-16,Ipswich,Jaden Philogene,a,100.0,,28,54,False
+2026-09-16,Ipswich,Sam Szmodics,u,0.0,Has joined Derby County on loan for the rest of the season,0,50,False
+2026-09-16,Ipswich,Chuba Akpom,a,,,69,50,False
+2026-09-16,Ipswich,Sindre Walle Egeli,a,,,10,45,False
+2026-09-16,Ipswich,Ali Al-Hamadi,u,0.0,Has joined Sheffield Wednesday on loan for the rest of the season,0,50,False
+2026-09-16,Ipswich,Kasey McAteer,a,,,42,45,False
+2026-09-16,Ipswich,Anis Mehmeti,a,,,0,49,False
+2026-09-16,Ipswich,Kayne van Oevelen,u,0.0,Has joined Valencia on loan for the rest of the season,0,45,False
+2026-09-16,Ipswich,Daizen Maeda,a,,,243,54,True
+2026-09-16,Ipswich,Kjell Scherpen,a,,,360,45,True
+2026-09-16,Ipswich,Florentino Ibrain Morris Luís,a,100.0,,13,49,False
+2026-09-16,Ipswich,Julio Enciso,a,100.0,,340,55,True
+2026-09-16,Ipswich,Abdoul Ouattara,a,,,41,40,False
+2026-09-16,Ipswich,Cameron Humphreys,u,0.0,Has joined Huddersfield Town on loan for the rest of the season,0,45,False
+2026-09-16,Ipswich,Exequiel Palacios,a,,,195,50,True
+2026-09-16,Ipswich,Zian Flemming,a,,,51,55,False
+2026-09-16,Leeds,Harry Wilson,a,,,145,63,False
+2026-09-16,Leeds,Lucas Estella Perri,u,0.0,Has joined Torino on loan for the rest of the season,0,45,False
+2026-09-16,Leeds,Jaka Bijol,a,,,164,50,False
+2026-09-16,Leeds,Joe Rodon,i,0.0,Hamstring injury - Expected back 21 Nov,123,44,False
+2026-09-16,Leeds,Jayden Bogle,a,,,299,45,True
+2026-09-16,Leeds,Gabriel Gudmundsson,a,100.0,,162,45,False
+2026-09-16,Leeds,James Justin,a,,,360,45,True
+2026-09-16,Leeds,Sebastiaan Bornauw,u,0.0,Has joined Hamburg SV on loan for the rest of the season,0,45,False
+2026-09-16,Leeds,Tarik Muharemović,a,,,360,50,True
+2026-09-16,Leeds,Anton Stach,a,,,357,60,True
+2026-09-16,Leeds,Noah Okafor,a,,,224,58,True
+2026-09-16,Leeds,Brenden Aaronson,a,,,172,54,False
+2026-09-16,Leeds,Ethan Ampadu,a,,,360,54,True
+2026-09-16,Leeds,Sean Longstaff,a,,,10,49,False
+2026-09-16,Leeds,Wilfried Gnonto,u,0.0,Has joined ACF Fiorentina on loan for the rest of the season,0,50,False
+2026-09-16,Leeds,Jack Harrison,u,0.0,Has joined New England Revolution permanently,0,50,False
+2026-09-16,Leeds,Daniel James,a,,,29,49,False
+2026-09-16,Leeds,Ilia Gruev,d,25.0,Knee injury - 25% chance of playing,0,50,False
+2026-09-16,Leeds,Tanaka Ao,a,,,188,49,True
+2026-09-16,Leeds,Dominic Calvert-Lewin,a,,,329,60,True
+2026-09-16,Leeds,Lukas Nmecha,a,,,50,54,False
+2026-09-16,Leeds,Joël Piroe,u,0.0,Has joined West Ham United on loan for the rest of the season,0,50,False
+2026-09-16,Leeds,Mateo Joseph Fernández-Regatillo,i,0.0,Knee injury - Unknown return date,0,45,False
+2026-09-16,Leeds,James Trafford,a,,,360,50,True
+2026-09-16,Leeds,Nico Elvedi,a,,,236,45,True
+2026-09-16,Leeds,Jayden Lienou,a,,,0,40,False
+2026-09-16,Leeds,Alfie Cresswell,a,,,0,45,False
+2026-09-16,Leeds,Alex Cairns,a,,,0,40,False
+2026-09-16,Leeds,Michael Zetterer,a,,,0,40,False
+2026-09-16,Leeds,Melvin Bard,a,,,18,45,False
+2026-09-16,Leeds,Jean-Mattéo Bahoya,a,,,0,50,False
+2026-09-16,Liverpool,Alisson Becker,a,,,360,55,True
+2026-09-16,Liverpool,Giorgi Mamardashvili,a,,,0,49,False
+2026-09-16,Liverpool,Freddie Woodman,a,,,0,40,False
+2026-09-16,Liverpool,Armin Pecsi,u,0.0,Has joined TSV Hartberg on loan for the rest of the season,0,40,False
+2026-09-16,Liverpool,Vitezslav Jaros,i,0.0,Knee injury - Unknown return date,0,40,False
+2026-09-16,Liverpool,Harvey Davies,a,,,0,40,False
+2026-09-16,Liverpool,Virgil van Dijk,a,,,360,65,True
+2026-09-16,Liverpool,Jeremie Frimpong,a,,,178,54,False
+2026-09-16,Liverpool,Milos Kerkez,a,,,295,54,True
+2026-09-16,Liverpool,Joe Gomez,d,75.0,Muscular injury - 75% chance of playing,0,49,False
+2026-09-16,Liverpool,Conor Bradley,i,0.0,Knee injury - Unknown return date,0,50,False
+2026-09-16,Liverpool,Wellity Lucky,a,,,0,40,False
+2026-09-16,Liverpool,Jeremy Jacquet,a,100.0,,325,50,True
+2026-09-16,Liverpool,Giovanni Leoni,i,0.0,Knee injury - Unknown return date,0,40,False
+2026-09-16,Liverpool,Kostas Tsimikas,a,,,64,49,False
+2026-09-16,Liverpool,Calvin Ramsay,u,0.0,Has joined St Mirren on loan for the rest of the season,0,40,False
+2026-09-16,Liverpool,Florian Wirtz,a,,,332,74,True
+2026-09-16,Liverpool,Cody Gakpo,a,100.0,,280,72,True
+2026-09-16,Liverpool,Dominik Szoboszlai,a,,,360,70,True
+2026-09-16,Liverpool,Rio Ngumoha,a,,,99,58,False
+2026-09-16,Liverpool,Federico Chiesa,i,0.0,Back injury - Unknown return date,0,54,False
+2026-09-16,Liverpool,Ryan Gravenberch,a,,,181,59,True
+2026-09-16,Liverpool,Alexis Mac Allister,a,,,216,54,True
+2026-09-16,Liverpool,Curtis Jones,u,0.0,Has joined Internazionale permanently,0,55,False
+2026-09-16,Liverpool,Endo Wataru,a,100.0,,0,49,False
+2026-09-16,Liverpool,Trey Nyoni,a,,,19,49,False
+2026-09-16,Liverpool,Stefan Bajčetić Maquieira,u,0.0,Has joined Celta Vigo permanently,0,50,False
+2026-09-16,Liverpool,Victor Munoz,a,,,239,65,True
+2026-09-16,Liverpool,James McConnell,a,,,0,44,False
+2026-09-16,Liverpool,Alexander Isak,a,,,333,91,True
+2026-09-16,Liverpool,Hugo Ekitiké,i,0.0,Achilles injury - Unknown return date,0,74,False
+2026-09-16,Liverpool,Lewis Koumas,a,,,13,50,False
+2026-09-16,Liverpool,Jayden Danns,a,100.0,,0,45,False
+2026-09-16,Liverpool,Harvey Elliott,u,0.0,Has joined Valencia on loan for the rest of the season,0,54,False
+2026-09-16,Liverpool,Ronald Araujo,a,,,194,54,True
+2026-09-16,Liverpool,Bradley Barcola,a,,,97,80,False
+2026-09-16,Man City,Enzo Fernández,a,,,181,69,True
+2026-09-16,Man City,Iliman Ndiaye,a,,,311,59,True
+2026-09-16,Man City,Gianluigi Donnarumma,a,,,360,55,True
+2026-09-16,Man City,Marcus Bettinelli,a,,,0,45,False
+2026-09-16,Man City,Nico O'Reilly,a,100.0,,158,64,False
+2026-09-16,Man City,Marc Guéhi,a,,,360,60,True
+2026-09-16,Man City,Matheus Nunes,a,100.0,,123,59,False
+2026-09-16,Man City,Rúben dos Santos Gato Alves Dias,a,,,360,55,True
+2026-09-16,Man City,Joško Gvardiol,a,,,344,57,True
+2026-09-16,Man City,Rayan Aït-Nouri,a,,,0,53,False
+2026-09-16,Man City,Abdukodir Khusanov,a,,,268,54,True
+2026-09-16,Man City,Max Alleyne,u,0.0,Has joined Burnley on loan for the rest of the season,0,50,False
+2026-09-16,Man City,Rico Lewis,a,,,56,44,False
+2026-09-16,Man City,Vitor de Oliveira Nunes dos Reis,a,,,1,45,False
+2026-09-16,Man City,Antoine Semenyo,a,,,360,84,True
+2026-09-16,Man City,Phil Foden,s,0.0,Suspended until 17 Oct,217,70,True
+2026-09-16,Man City,Rayan Cherki,a,,,218,78,True
+2026-09-16,Man City,Jérémy Doku,i,0.0,Calf injury - Expected back 20 Sep,0,74,False
+2026-09-16,Man City,Rodrigo 'Rodri' Hernandez Cascante,u,0.0,Has joined Barcelona permanently,0,65,False
+2026-09-16,Man City,Tijjani Reijnders,u,0.0,Has joined Al Qadsiah permanently,0,60,False
+2026-09-16,Man City,Mateo Kovačić,a,,,42,54,False
+2026-09-16,Man City,Claudio Echeverri,u,0.0,Has joined Benfica on loan for the rest of the season,0,49,False
+2026-09-16,Man City,Kalvin Phillips,u,0.0,Has joined Sheffield United on loan for the rest of the season,0,50,False
+2026-09-16,Man City,Divine Mukasa,u,0.0,has joined West Ham on loan for the rest of the seaon.,0,45,False
+2026-09-16,Man City,Jeremy Monga,u,0.0,Has joined Swansea City on loan for the rest of the season,0,49,False
+2026-09-16,Man City,Erling Haaland,a,,,360,155,True
+2026-09-16,Man City,Elliot Anderson,a,100.0,,323,63,True
+2026-09-16,Man City,Gerónimo Rulli,a,,,0,50,False
+2026-09-16,Man City,Ayyoub Bouaddi,a,,,22,55,False
+2026-09-16,Man City,Ryan McAidoo,a,,,11,45,False
+2026-09-16,Man City,Kaden Braithwaite,a,,,1,40,False
+2026-09-16,Man City,Allan Andrade Elias,a,,,0,60,False
+2026-09-16,Man City,Floyd Samba,a,,,0,45,False
+2026-09-16,Man United,Youri Tielemans,a,100.0,,312,58,True
+2026-09-16,Man United,Carlos Baleba,i,0.0,Ankle injury - Expected back 19 Sep,0,49,False
+2026-09-16,Man United,Andrey Nascimento dos Santos,a,,,82,48,False
+2026-09-16,Man United,Karl Darlow,a,100.0,,0,45,False
+2026-09-16,Man United,Senne Lammens,a,,,360,49,True
+2026-09-16,Man United,Altay Bayındır,u,0.0,Has joined Celta Vigo on loan for the rest of the season,0,45,False
+2026-09-16,Man United,Tom Heaton,i,0.0,Hamstring injury - Unknown return date,0,40,False
+2026-09-16,Man United,Patrick Dorgu,a,,,165,58,False
+2026-09-16,Man United,Matthijs de Ligt,i,0.0,Back injury - Unknown return date,0,50,False
+2026-09-16,Man United,Diogo Dalot Teixeira,a,,,256,49,True
+2026-09-16,Man United,Harry Maguire,a,,,360,49,True
+2026-09-16,Man United,Lisandro Martínez,a,100.0,,270,50,True
+2026-09-16,Man United,Leny Yoro,a,,,22,49,False
+2026-09-16,Man United,Ayden Heaven,a,,,90,44,False
+2026-09-16,Man United,Noussair Mazraoui,a,,,97,44,False
+2026-09-16,Man United,Luke Shaw,d,75.0,Unspecified injury - 75% chance of playing,252,44,True
+2026-09-16,Man United,Harry Amass,a,,,0,40,False
+2026-09-16,Man United,Tyler Fredricson,u,0.0,Has joined Lausanne-Sport permanently,0,40,False
+2026-09-16,Man United,Bruno Borges Fernandes,a,,,360,120,True
+2026-09-16,Man United,Bryan Mbeumo,a,,,360,79,True
+2026-09-16,Man United,Matheus Santos Carneiro da Cunha,a,,,317,79,True
+2026-09-16,Man United,Marcus Rashford,a,,,275,70,True
+2026-09-16,Man United,Mason Mount,a,100.0,,0,54,False
+2026-09-16,Man United,Amad Diallo,i,0.0,Unspecified injury - Unknown return date,0,57,False
+2026-09-16,Man United,Kobbie Mainoo,a,,,275,55,True
+2026-09-16,Man United,Manuel Ugarte Ribeiro,i,0.0,Knee injury - Unknown return date,0,50,False
+2026-09-16,Man United,Jack Fletcher,a,,,0,49,False
+2026-09-16,Man United,Shea Lacey,a,,,10,49,False
+2026-09-16,Man United,Toby Collyer,u,0.0,Has joined West Brom permanently,0,50,False
+2026-09-16,Man United,Bendito Mantato,a,,,0,45,False
+2026-09-16,Man United,Tyler Fletcher,a,,,0,44,False
+2026-09-16,Man United,Benjamin Sesko,a,100.0,,76,70,False
+2026-09-16,Man United,Joshua Zirkzee,a,,,7,54,False
+2026-09-16,Man United,Chido Obi,u,0.0,Has joined Willem II on loan for the rest of the season,0,45,False
+2026-09-16,Newcastle,Nico González Iglesias,d,50.0,Concussion - 50% chance of playing,164,55,False
+2026-09-16,Newcastle,Nick Pope,a,,,0,49,False
+2026-09-16,Newcastle,Mark Gillespie,a,,,0,45,False
+2026-09-16,Newcastle,Ewen Jaouen,d,50.0,Ankle injury - 50% chance of playing,0,45,False
+2026-09-16,Newcastle,Malick Thiaw,a,,,360,50,True
+2026-09-16,Newcastle,Fabian Schär,a,100.0,,1,49,False
+2026-09-16,Newcastle,Sven Botman,a,,,360,50,True
+2026-09-16,Newcastle,Dan Burn,i,0.0,Ankle injury - Expected back 19 Sep,0,49,False
+2026-09-16,Newcastle,Lewis Hall,a,,,359,52,True
+2026-09-16,Newcastle,Tino Livramento,a,100.0,,33,49,False
+2026-09-16,Newcastle,Alex Murphy,u,0.0,Has joined FC Kaiserslautern on loan for the rest of the season,0,40,False
+2026-09-16,Newcastle,Harvey Barnes,a,,,360,60,True
+2026-09-16,Newcastle,Anthony Elanga,i,0.0,Unspecified injury - Unknown return date,232,62,True
+2026-09-16,Newcastle,Jacob Ramsey,d,25.0,Thigh injury - 25% chance of playing,69,49,False
+2026-09-16,Newcastle,Jacob Murphy,a,,,91,59,False
+2026-09-16,Newcastle,Joelinton Cássio Apolinário de Lira,i,0.0,Unspecified injury - Unknown return date,0,54,False
+2026-09-16,Newcastle,Lewis Miley,a,100.0,,306,55,True
+2026-09-16,Newcastle,Joe Willock,a,,,198,50,True
+2026-09-16,Newcastle,Bazoumana Touré,a,,,34,58,False
+2026-09-16,Newcastle,Sean Steur,a,,,158,49,False
+2026-09-16,Newcastle,Nick Woltemade,u,0.0,Has joined Juventus on loan for the rest of the season,19,59,False
+2026-09-16,Newcastle,Yoane Wissa,a,,,351,62,True
+2026-09-16,Newcastle,William Osula,i,0.0,Foot injury - Unknown return date,55,59,False
+2026-09-16,Newcastle,Sean Neave,u,0.0,Has joined Wolves on loan for the rest of the season,0,45,False
+2026-09-16,Newcastle,Aladji Bamba,a,,,24,49,False
+2026-09-16,Newcastle,Lukás Hornícek,a,,,360,50,True
+2026-09-16,Newcastle,Amar Dedic,a,100.0,,327,45,True
+2026-09-16,Newcastle,Leo Shahar,u,0.0,has joined Arouca on loan for the rest of the seaon.,0,40,False
+2026-09-16,Newcastle,Matias Fernandez-Pardo,a,,,84,60,False
+2026-09-16,Newcastle,Mason Miley,a,,,0,45,False
+2026-09-16,Nott'm Forest,Liam Delap,a,,,187,55,True
+2026-09-16,Nott'm Forest,Daniel Muñoz Mejía,a,,,175,54,False
+2026-09-16,Nott'm Forest,Matz Sels,a,,,360,50,True
+2026-09-16,Nott'm Forest,John Victor Maciel Furtado,a,,,0,45,False
+2026-09-16,Nott'm Forest,Neco Williams,a,,,360,50,True
+2026-09-16,Nott'm Forest,Felipe Rodrigues da Silva,u,0.0,Has joined West Ham on loan for the rest of the season,0,50,False
+2026-09-16,Nott'm Forest,Nikola Milenković,i,0.0,Hamstring injury - Expected back 11 Oct,270,55,True
+2026-09-16,Nott'm Forest,Murillo Costa dos Santos,a,100.0,,359,55,True
+2026-09-16,Nott'm Forest,Ola Aina,a,,,306,45,True
+2026-09-16,Nott'm Forest,Jair Paula da Cunha Filho,d,50.0,Hamstring injury - 50% chance of playing,270,45,True
+2026-09-16,Nott'm Forest,Nicolò Savona,i,0.0,Knee injury - Unknown return date,0,45,False
+2026-09-16,Nott'm Forest,Omar Richards,a,,,0,40,False
+2026-09-16,Nott'm Forest,Zach Abbott,u,0.0,Has joined Southampton on loan for the rest of the season,0,40,False
+2026-09-16,Nott'm Forest,Luca Netz,a,,,20,44,False
+2026-09-16,Nott'm Forest,Tyler Bindon,u,0.0,Has joined Charlton Athletic on loan for the rest of the season,0,40,False
+2026-09-16,Nott'm Forest,Morgan Gibbs-White,a,100.0,,360,80,True
+2026-09-16,Nott'm Forest,Callum Hudson-Odoi,a,100.0,,1,58,False
+2026-09-16,Nott'm Forest,Dan Ndoye,a,,,258,55,True
+2026-09-16,Nott'm Forest,Omari Hutchinson,u,0.0,Has joined AC Milan on loan for the rest of the season,0,54,False
+2026-09-16,Nott'm Forest,Dilane Bakwa,u,0.0,Has joined Lille on loan for the rest of the season,0,55,False
+2026-09-16,Nott'm Forest,James McAtee,a,,,334,55,True
+2026-09-16,Nott'm Forest,Nicolás Domínguez,a,,,1,49,False
+2026-09-16,Nott'm Forest,Ibrahim Sangaré,a,100.0,,98,49,False
+2026-09-16,Nott'm Forest,Ryan Yates,a,100.0,,0,45,False
+2026-09-16,Nott'm Forest,Chris Wood,a,,,45,58,False
+2026-09-16,Nott'm Forest,Igor Jesus Maciel da Cruz,a,,,226,58,True
+2026-09-16,Nott'm Forest,Arnaud Kalimuendo,a,,,1,54,False
+2026-09-16,Nott'm Forest,Xaver Schlager,a,,,286,50,True
+2026-09-16,Nott'm Forest,Ousmane Diomande,a,,,91,54,False
+2026-09-16,Nott'm Forest,Steven Benda,a,,,0,45,False
+2026-09-16,Tottenham,Jan Paul van Hecke,a,,,360,49,True
+2026-09-16,Tottenham,Tosin Adarabioyo,a,,,5,44,False
+2026-09-16,Tottenham,Omar Marmoush,a,,,249,70,True
+2026-09-16,Tottenham,Sávio Moreira de Oliveira,a,100.0,,150,65,False
+2026-09-16,Tottenham,Sandro Tonali,d,75.0,Knock - 75% chance of playing,344,54,True
+2026-09-16,Tottenham,Guglielmo Vicario,u,0.0,Has joined Juventus on loan for the rest of the season,0,45,False
+2026-09-16,Tottenham,Brandon Austin,a,,,0,40,False
+2026-09-16,Tottenham,Antonín Kinský,a,,,360,45,True
+2026-09-16,Tottenham,Martin Dubravka,a,,,0,40,False
+2026-09-16,Tottenham,Marcos Senesi Barón,a,,,90,58,False
+2026-09-16,Tottenham,Pedro Porro Sauceda,d,75.0,Unspecified injury - 75% chance of playing,180,55,True
+2026-09-16,Tottenham,Cristian Romero,u,0.0,Has joined Atletico Madrid permanently,0,50,False
+2026-09-16,Tottenham,Andrew Robertson,a,,,276,44,True
+2026-09-16,Tottenham,Micky van de Ven,a,100.0,,270,50,True
+2026-09-16,Tottenham,Djed Spence,u,0.0,Has joined Internazionale permanently,0,45,False
+2026-09-16,Tottenham,Destiny Udogie,a,100.0,,86,44,False
+2026-09-16,Tottenham,Ashley Phillips,u,0.0,Has joined Middlesbrough permanently,0,45,False
+2026-09-16,Tottenham,Ben Davies,a,,,0,40,False
+2026-09-16,Tottenham,Jun'ai Byfield,a,,,0,40,False
+2026-09-16,Tottenham,James Rowswell,a,,,0,40,False
+2026-09-16,Tottenham,João Victor de Souza Menezes,u,0.0,Has joined FC Porto on loan for the rest of the season,0,40,False
+2026-09-16,Tottenham,Mohammed Kudus,a,100.0,,78,65,False
+2026-09-16,Tottenham,Xavi Simons,i,0.0,Knee injury - Unknown return date,0,59,False
+2026-09-16,Tottenham,Mathys Tel,a,,,257,58,True
+2026-09-16,Tottenham,James Maddison,a,100.0,,35,63,False
+2026-09-16,Tottenham,Rodrigo Bentancur,a,,,287,55,True
+2026-09-16,Tottenham,Wilson Odobert,i,0.0,Knee injury - Unknown return date,0,55,False
+2026-09-16,Tottenham,Pape Matar Sarr,u,0.0,Has joined Juventus on loan for the rest of the season,0,49,False
+2026-09-16,Tottenham,Conor Gallagher,a,,,128,54,False
+2026-09-16,Tottenham,Lucas Bergvall,a,,,72,54,False
+2026-09-16,Tottenham,Dejan Kulusevski,i,0.0,Knee injury - Unknown return date,0,65,False
+2026-09-16,Tottenham,Archie Gray,a,,,236,49,True
+2026-09-16,Tottenham,Mikey Moore,u,0.0,Has joined FC Köln on loan for the rest of the season,89,50,False
+2026-09-16,Tottenham,Callum Olusesi,a,,,0,44,False
+2026-09-16,Tottenham,Mateus Fernandes,a,,,204,58,True
+2026-09-16,Tottenham,Dominic Solanke-Mitchell,a,,,105,58,False
+2026-09-16,Tottenham,Richarlison de Andrade,u,0.0,not included in squad.,67,59,False
+2026-09-16,Tottenham,Dane Scarlett,u,0.0,Has joined Leyton Orient permanently,0,45,False
+2026-09-16,Tottenham,Mykhailo Mudryk,i,0.0,Ankle injury - Unknown return date,16,54,False
+2026-09-16,Tottenham,Luca Williams-Barnett,a,,,0,45,False
+2026-09-16,Sunderland,Kevin Danso,a,,,180,50,True
+2026-09-16,Sunderland,Robin Roefs,a,,,360,49,True
+2026-09-16,Sunderland,Anthony Patterson,u,0.0,Has joined Wrexham permanently,0,40,False
+2026-09-16,Sunderland,Melker Ellborg,a,,,0,45,False
+2026-09-16,Sunderland,Daniel Ballard,a,,,360,49,True
+2026-09-16,Sunderland,Nordi Mukiele,a,100.0,,270,54,True
+2026-09-16,Sunderland,Trai Hume,a,,,195,44,True
+2026-09-16,Sunderland,Omar Alderete,a,100.0,,23,49,False
+2026-09-16,Sunderland,Reinildo Mandava,s,0.0,Suspended until 10 Oct,360,45,True
+2026-09-16,Sunderland,Jenson Seelt,u,0.0,Has joined Swansea City on loan for the rest of the season,0,45,False
+2026-09-16,Sunderland,Leo Fuhr Hjelde,u,0.0,Has joined KV Mechelen on loan for the rest of the season,0,40,False
+2026-09-16,Sunderland,Luke O'Nien,a,,,66,40,False
+2026-09-16,Sunderland,Arthur Masuaku,u,0.0,Has joined Konyaspor permanently,0,40,False
+2026-09-16,Sunderland,Thomas Meunier,a,100.0,,318,45,True
+2026-09-16,Sunderland,Enzo Le Fée,a,,,348,58,True
+2026-09-16,Sunderland,Habib Diarra,i,0.0,Hamstring injury - Unknown return date,28,54,False
+2026-09-16,Sunderland,Granit Xhaka,a,,,360,55,True
+2026-09-16,Sunderland,Noah Sadiki,a,,,343,49,True
+2026-09-16,Sunderland,Simon Adingra,u,0.0,Has joined Ajax on loan for the rest of the season,0,49,False
+2026-09-16,Sunderland,Romaine Mundle,i,0.0,Knee injury - Unknown return date,1,49,False
+2026-09-16,Sunderland,Chris Rigg,a,,,17,49,False
+2026-09-16,Sunderland,Chemsdine Talbi,a,,,31,53,False
+2026-09-16,Sunderland,Djiamgone Jocelin Ta Bi,a,,,0,50,False
+2026-09-16,Sunderland,Nilson Angulo,a,,,254,50,True
+2026-09-16,Sunderland,Brian Brobbey,a,,,309,58,True
+2026-09-16,Sunderland,Wilson Isidor,a,,,95,55,False
+2026-09-16,Sunderland,Dayann Méthalie,a,100.0,,0,45,False
+2026-09-16,Sunderland,Jules Ahoka,a,,,0,45,False
+2026-09-16,Sunderland,Malick Fofana,a,,,30,55,False
+2026-09-16,Sunderland,Juan Angulo,a,,,0,45,False
