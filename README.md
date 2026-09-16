@@ -101,15 +101,15 @@ Note: raw match-result CSVs (`season-2627.csv`) and the current-season xG snapsh
 
 The Power BI dashboard consists of four pages designed to move from the overall prediction to the underlying performance factors, attacking data and squad availability.
 
-1. Season Overview
+1. **Season Overview**
 
 ![Season Overview](images/Season_Overview.png)
 
-Question: What does the model currently predict?
+**Question: What does the model currently predict?**
 
 The Season Overview provides the high-level view of the 2026/27 season prediction.
 
-It includes:
+**It includes:**
 - Predicted champion
 - Predicted champion points
 - Average predicted points per match
@@ -121,15 +121,15 @@ It includes:
 This page provides the starting point for interpreting the model's current predictions.
 
 
-2. Prediction Drivers
+2. **Prediction Drivers**
 
 ![Season Overview](images/Prediction_Drivers.png)
 
-Question: Why are teams predicted this way?
+**Question: Why are teams predicted this way?**
 
 This page examines the performance metrics contributing to the model's predictions.
 
-It includes:
+**It includes:**
 - Total performance impact by team
 - Current vs historical shots on target per match
 - Biggest positive performance factor
@@ -139,15 +139,15 @@ It includes:
 This page helps explain the factors behind differences in predicted team performance rather than presenting predictions as standalone outputs.
 
 
-3. Attacking & Shot Analysis
+3. **Attacking & Shot Analysis**
 
 ![Season Overview](images/Attacking_&_Shot_Analysis.png)
 
-Question: Where are teams shooting and how good are their chances?
+**Question: Where are teams shooting and how good are their chances?**
 
 This page uses shot-level data to examine the underlying attacking profile of the league.
 
-It includes:
+**It includes:**
 - Shot map using pitch coordinates
 - Expected goals (xG) for individual shots
 - Goal vs no-goal outcomes
@@ -159,15 +159,15 @@ It includes:
 - Team-level shot location summary
 
 
-4. Squad Availability
+4. **Squad Availability**
 
 ![Season Overview](images/Squad_Availability.png)
 
-Question: What current external factors could affect predictions?
+**Question: What current external factors could affect predictions?**
 
 This page incorporates current player availability into the analysis.
 
-It includes:
+**It includes:**
 - Players unavailable
 - Key players unavailable
 - Missing squad value
