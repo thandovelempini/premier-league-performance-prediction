@@ -191,3 +191,15 @@ The dashboard, therefore, represents a live season-long analysis, with predictio
 - Build a historical injury/availability dataset across multiple seasons
 - Incorporate squad availability into the prediction model
 - Add additional team and match-level performance features
+
+## AI Assistance
+
+AI tools were used during the development of this project as a supporting resource.
+
+AI was used for:
+- Debugging Python, DAX and Power BI issues
+- Troubleshooting errors and improving code
+- Exploring alternative approaches to data analysis and visualisation
+- Refining documentation and project structure
+
+The data processing, analysis, modelling, dashboard development and final project decisions were reviewed and implemented by me.
