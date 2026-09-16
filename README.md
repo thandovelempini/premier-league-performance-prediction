@@ -75,14 +75,14 @@ README.md
 ## Pipeline Order
 Scripts have real dependencies on each other's output, so they must run in this order (run_weekly_pipeline.py handles this automatically):
 
-1. 01_load_and_combine.py → 02_create_team_season_data.py
-2. build_historical_fact.py
-3. 06_fetch_shot_data.py → 07_shot_level_analysis.py
-4. 04_current_season_analysis.py, 08_xg_model_comparison.py, 03_exploratory_analysis.py, 05_expected_performance_analysis.py
-5. 09_shot_profile_dashboard.py
-6. 11_fetch_injury_status.py
-7. 10_build_powerbi_schema.py
-Note: raw match-result CSVs (season-2627.csv) and the current-season xG snapshot (xG2627.csv) are manual downloads from football-data.co.uk and Understat respectively — nothing in this pipeline fetches those automatically. Update them before each weekly run.
+1. `01_load_and_combine.py` → `02_create_team_season_data.py`
+2. `build_historical_fact.py`
+3. `06_fetch_shot_data.py` → `07_shot_level_analysis.py`
+4. `04_current_season_analysis.py`, `08_xg_model_comparison.py`, `03_exploratory_analysis.py`, `05_expected_performance_analysis.py`
+5. `09_shot_profile_dashboard.py`
+6. `11_fetch_injury_status.py`
+7. `10_build_powerbi_schema.py`
+Note: raw match-result CSVs (`season-2627.csv`) and the current-season xG snapshot (`xG2627.csv`) are manual downloads from football-data.co.uk and Understat respectively — nothing in this pipeline fetches those automatically. Update them before each weekly run.
 
 ## Power BI Data Model
 
